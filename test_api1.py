@@ -18,7 +18,7 @@ class Test_httpbin():
         assert 200 == r.status_code
         assert LOCAL_IP == response_data["origin"]
     
-"""  def test_post_method(self):
+    def test_post_method(self):
         url = BASE_URL + POST_TEST_URL
         post_data = {"name":"yourname","pwd":"123456"}
         r = requests.post(url,data=post_data)
@@ -27,5 +27,5 @@ class Test_httpbin():
         print(response_data)
         assert 200 == r.status_code
         assert post_data['name']== response_data["form"]["name"]
-        assert post_data['pwd']== response_data["form"]["pwd"] """
+        assert post_data['pwd']== response_data["form"]["pwd"]
     
