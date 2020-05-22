@@ -5,7 +5,7 @@ import pytest
 BASE_URL="http://httpbin.org/"
 IP_URL= "/ip"
 POST_TEST_URL ="/post"
-LOCAL_IP="175.153.168.9"
+LOCAL_IP="175.153.168.0"
 class Test_httpbin():
 
     def test_get_ip(self):
